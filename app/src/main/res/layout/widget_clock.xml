@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/transparent">
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format24Hour="HH:mm"
+        android:format12Hour="HH:mm"
+        android:textColor="#FFFFFF"
+        android:textSize="52sp"
+        android:fontFamily="sans-serif-thin"
+        android:letterSpacing="-0.02"
+        android:shadowColor="#66000000"
+        android:shadowRadius="6"
+        android:shadowDy="1" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format24Hour="EEE  ·  d MMM"
+        android:format12Hour="EEE  ·  d MMM"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-light"
+        android:shadowColor="#66000000"
+        android:shadowRadius="6"
+        android:shadowDy="1"
+        android:textColor="#DDFFFFFF"
+        android:textSize="14sp" />
+</LinearLayout>
