@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:paddingBottom="6dp"
     android:background="@android:color/transparent">
 
     <TextClock
@@ -11,7 +12,8 @@
         android:format24Hour="HH:mm"
         android:format12Hour="HH:mm"
         android:textColor="#FFFFFF"
-        android:textSize="52sp"
+        android:textSize="46sp"
+        android:includeFontPadding="false"
         android:fontFamily="sans-serif-thin"
         android:letterSpacing="-0.02"
         android:shadowColor="#66000000"
@@ -29,5 +31,7 @@
         android:shadowRadius="6"
         android:shadowDy="1"
         android:textColor="#DDFFFFFF"
-        android:textSize="14sp" />
+        android:textSize="13sp"
+        android:includeFontPadding="false"
+        android:layout_marginTop="2dp" />
 </LinearLayout>
